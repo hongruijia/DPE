@@ -1,6 +1,6 @@
 data:
-  train_files: hiyouga/math12k@train
-  val_files: hiyouga/math12k@test
+  train_files: path_to_hiyouga/math12k/data/train-00000-of-00001.parquet
+  val_files: path_to_hiyouga/math12k/data/test-00000-of-00001.parquet
   prompt_key: problem
   answer_key: answer
   image_key: images
@@ -33,7 +33,7 @@ worker:
     padding_free: true
     ulysses_sequence_parallel_size: 1
     model:
-      model_path: Qwen/Qwen2.5-VL-7B-Instruct
+      model_path: path_to_Qwen2.5-VL-7B-Instruct
       enable_gradient_checkpointing: true
       trust_remote_code: false
       freeze_vision_tower: false

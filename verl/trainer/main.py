@@ -119,7 +119,16 @@ def main():
                 "PYTHONUNBUFFERED": "1",
             }
         }
-        ray.init(runtime_env=runtime_env)
+        ray.init(
+            runtime_env=runtime_env,
+
+            _system_config={
+                "object_spilling_config": json.dumps({
+                    "type": "filesystem",
+                    "params": {"directory_path": 'path_to_tmp-ray'}
+                }),
+            }
+        )
 
     runner = Runner.remote()
     ray.get(runner.run.remote(ppo_config))

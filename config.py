@@ -50,6 +50,8 @@ else:
 
 MISTRAL_CONFIG_NAME = "params.json"
 HF_TOKEN = os.getenv('HF_TOKEN', None)
+DASHSCOPE_API_KEY = "your_dashscope_api_key"
+
 
 logger = init_logger(__name__)
 
