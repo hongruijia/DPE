@@ -1,5 +1,12 @@
 # DPE: Diagnostic-driven Progressive Evolution for Large Multimodal Models
 
+## 🔔 Updates
+**2026-2-26:** We released our paper and Models! 🎉 
+
+📄 [Read the Paper](https://arxiv.org/abs/2510.24563) &nbsp;|&nbsp; 🌐 [Visit the Model Zoo](#Model-Zoo)
+
+---
+
 **DPE (Diagnostic-driven Progressive Evolution)** is a self-evolving training framework for Large Multimodal Models (LMMs). Inspired by the "diagnose-and-correct" mechanism in educational psychology, DPE moves beyond indiscriminate data expansion. It prioritizes the **diagnosis of capability gaps** to steer targeted data generation and mixture optimization, effectively breaking the multimodal long-tail bottleneck.
 
 ## 🌟 Key Features
@@ -63,9 +70,9 @@ We provide multiple versions of DPE-enhanced models on Hugging Face:
 ## 🏗️ Acknowledgements
 
 The codebase is built upon and inspired by the following projects:
-- [VisPlay](https://github.com/bruno686/VisPlay): For the self-evolution framework and data generation logic.
-- [Vision-SR1](https://github.com/zli12321/Vision-SR1): For perception rewards and RL training components.
-- [VLMEvalKit](https://github.com/open-compass/VLMEvalKit): For standard evaluation protocols.
+[VisPlay](https://github.com/bruno686/VisPlay), 
+[Vision-SR1](https://github.com/zli12321/Vision-SR1), 
+[VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 
 <!-- ## 📑 Citation
 
