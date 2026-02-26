@@ -3,7 +3,7 @@
 ## 🔔 Updates
 **2026-2-26:** We released our paper and Models! 🎉 
 
-📄 [Read the Paper](https://arxiv.org/abs/2510.24563) &nbsp;|&nbsp; 🌐 [Visit the Model Zoo](#Model-Zoo)
+📄 [Read the Paper](https://arxiv.org/abs/2510.24563) &nbsp;|&nbsp; 🌐 [Visit the Model Zoo](#-model-zoo)
 
 ---
 
