@@ -1,9 +1,9 @@
-# DPE: Diagnostic-driven Progressive Evolution for Large Multimodal Models
+# From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models
 
 ## 🔔 Updates
 **2026-2-26:** We released our paper and Models! 🎉 
 
-📄 [Read the Paper](https://arxiv.org/abs/2510.24563) &nbsp;|&nbsp; 🌐 [Visit the Model Zoo](#-model-zoo)
+📄 [Read the Paper](https://arxiv.org/abs/2602.22859) &nbsp;|&nbsp; 🌐 [Visit the Model Zoo](#-model-zoo)
 
 ---
 
@@ -74,15 +74,18 @@ The codebase is built upon and inspired by the following projects:
 [Vision-SR1](https://github.com/zli12321/Vision-SR1), 
 [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 
-<!-- ## 📑 Citation
+## 📑 Citation
 
 If you find this work helpful, please consider citing our paper:
 
 ```latex
-@article{jia2026dpe,
-  title={DPE: Diagnostic-driven Progressive Evolution for Large Multimodal Models},
-  author={Jia, Hongrui and others},
-  journal={arXiv preprint},
-  year={2026}
+@misc{jia2026blindspotsgainsdiagnosticdriven,
+      title={From Blind Spots to Gains: Diagnostic-Driven Iterative Training for Large Multimodal Models}, 
+      author={Hongrui Jia and Chaoya Jiang and Shikun Zhang and Wei Ye},
+      year={2026},
+      eprint={2602.22859},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2602.22859}, 
 }
-``` -->
+```
